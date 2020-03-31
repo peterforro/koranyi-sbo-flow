@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Success2!'
+    return 'Site is under development!'
 
 
 if __name__ == '__main__':

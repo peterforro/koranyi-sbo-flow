@@ -1,0 +1,22 @@
+
+1. Open yesterdays project --> close project --> remove it from pycharm
+2. Uninstall Python3.x from computer
+3. Restart PC
+4. Download and install Python3.6.6
+	- https://www.python.org/ftp/python/3.6.6/python-3.6.6-amd64.exe
+	- ADD PATH! during the installation
+5. Delete the project repository from your computer
+6. Clone it again
+	- https://github.com/peterforro/koranyi-sbo-flow
+7. Open the project in Pycharm
+	- File --> Settings --> Project --> Project interpreter --> GearIcon --> Show all --> remove existing settings
+	  (if any, minus icon) --> plus icon --> New environment + select python 3.6.6 + if asks install packaging module
+	  --> OK
+8. In pycharm terminal (inside venv):
+	- python -V (should print: Python 3.6.6)
+	- python -m pip install -r requirements.txt
+9. Click on the green triangle next to the following code line: if __name__ == "__main__":
+	- It will automatically create the project configuration
+	- Click on the project configuration button (upper right corner) and turn on DEBUG MODE
+
+Done!!!		
